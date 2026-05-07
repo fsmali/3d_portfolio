@@ -1,19 +1,109 @@
-# React + Vite
+# 3D Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive portfolio website built with React, Vite, and Three.js.
 
-Currently, two official plugins are available:
+This project showcases interactive 3D character animations created in Blender, smooth scroll-based transitions, responsive layouts, and modern UI design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React
+- Vite
+- Three.js
+- React Three Fiber
+- Drei
+- Framer Motion
+- Blender
+- CSS3
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+##  Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# 3d_portfolio
+- Interactive 3D character
+- Blender animations integrated with Three.js
+- Responsive design for mobile and desktop
+- Scroll-based character interactions
+- Animated sections
+- Project showcase section
+- Contact section
+- Modern clean UI
+
+---
+
+##  Sections
+
+- Home
+- About
+- Projects
+- Contact
+
+---
+
+##  3D Character Features
+
+The portfolio includes a custom animated 3D character built and animated in Blender.
+
+Animations include:
+- Wave animation
+- Yes animation
+- Floating motion
+- Scroll-triggered visibility
+
+---
+
+##  Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+```
+
+Navigate into the project folder:
+
+```bash
+cd your-repository-name
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+##  Project Structure
+
+```bash
+src/
+│
+├── components/
+├── sections/
+├── three/
+├── data/
+├── assets/
+└── App.jsx
+```
+
+---
+
+##  Deployment
+
+The project can be deployed using:
+- Netlify
+- GitHub Pages
+
+---
+
+
+
+---
