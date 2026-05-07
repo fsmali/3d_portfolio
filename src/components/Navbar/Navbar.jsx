@@ -1,4 +1,5 @@
 import './Navbar.css';
+import { FaHome } from 'react-icons/fa';
 
 const navLinks = [
   { label: 'Home', href: '#home' },
@@ -12,7 +13,7 @@ function Navbar() {
     <header className="navbar">
       <div className="navbar__container">
         <a href="#home" className="navbar__logo">
-          ALI
+          <FaHome className="home_icon" />
         </a>
 
         <nav className="navbar__nav">
@@ -27,7 +28,11 @@ function Navbar() {
           </ul>
         </nav>
         <div className="navbar_mail">
-          <a className="navbar_mail_a" href="">
+          <a
+            className="navbar_mail_a"
+            href="mailto:fatih.ali.dede@gmail.com"
+            aria-label="Email"
+          >
             Get In Touch
           </a>
         </div>

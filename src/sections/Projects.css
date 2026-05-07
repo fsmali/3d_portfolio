@@ -1,5 +1,8 @@
 .projects {
   padding: 6rem 0;
+  position: relative;
+  z-index: -1;
+  padding: 6rem 0;
 }
 
 .projects__container {
@@ -17,7 +20,7 @@
 .projects__title {
   font-size: 3rem;
   font-weight: 700;
-  color: #111;
+  color: #ff7a00;
   margin-bottom: 3rem;
   line-height: 1.1;
 }
@@ -128,17 +131,56 @@
 }
 
 @media (max-width: 992px) {
+  .projects {
+    padding: 5rem 0;
+  }
+
   .projects__grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
   }
 }
 
 @media (max-width: 640px) {
+  .projects {
+    padding: 4rem 0;
+  }
+
+  .projects__container {
+    width: min(100% - 1.25rem, 1200px);
+  }
+
   .projects__title {
     font-size: 2.3rem;
+    margin-bottom: 2rem;
+    text-align: center;
   }
 
   .projects__grid {
     grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .project-card__content {
+    padding: 1rem;
+  }
+
+  .project-card__title {
+    font-size: 1.1rem;
+  }
+
+  .project-card__description {
+    font-size: 0.9rem;
+  }
+
+  .project-card__actions {
+    gap: 0.5rem;
+  }
+
+  .project-card__button,
+  .project-card__link {
+    flex: 1;
+    padding: 0.75rem 0.8rem;
+    font-size: 0.85rem;
   }
 }

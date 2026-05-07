@@ -1,4 +1,5 @@
 const ProjectCard = ({ project }) => {
+  console.log(project);
   return (
     <article className="project-card">
       <div className="project-card__image-wrapper">
