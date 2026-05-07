@@ -54,7 +54,7 @@
 
   .hero__left {
     margin: 0 auto;
-    /* transform: translateY(-90px); */
+    transform: translateY(-60px);
   }
 
   .hero__description {
