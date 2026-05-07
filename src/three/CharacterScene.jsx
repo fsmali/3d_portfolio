@@ -37,15 +37,16 @@ function MovingBox({ scrollY, contactStart }) {
     if (!modelRef.current) return;
 
     let x = isMobile ? 0 : 1;
+    let y = isMobile ? 0 : -1.3;
     const fadeStart = isMobile ? 500 : 900;
     const contactTrigger = contactStart ? contactStart - 300 : 2700;
     const showContactCharacter = scrollY > contactTrigger;
-    let y = 0;
+    // let y = 0;
     let opacity = 1;
 
     if (scrollY < fadeStart) {
       x = isMobile ? 0 : Math.max(0, 1 - scrollY * 0.0025);
-      y = -1.3;
+      y = isMobile ? -1.9 : -1.3;
       opacity = 1;
     } else if (scrollY >= fadeStart && scrollY < 1400) {
       x = 0;
