@@ -2,7 +2,7 @@
 
 A modern and responsive portfolio website built with React, Vite, and Three.js.
 
-This project showcases interactive 3D character animations created in Blender, smooth scroll-based transitions, responsive layouts, and modern UI design here is the [Link(https://3dali.netlify.app/).
+This project showcases interactive 3D character animations created in Blender, smooth scroll-based transitions, responsive layouts, and modern UI design here is the [Link](https://3dali.netlify.app/).
 
 ---
 
